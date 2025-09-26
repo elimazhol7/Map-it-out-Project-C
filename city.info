@@ -1,0 +1,20 @@
+Project Title: City Distance Calculator
+Course: CSC122
+Student Name: Elima Zholdubaeva
+
+~ Purpose of the Program
+This program allows the user to calculate distances between cities on a 2D map. 
+Each city has a name and coordinates relative to an origin (0,0). The system stores cities, prints them, and calculates distances. 
+It also demonstrates the use of arrays, classes, and separate libraries in C++.
+
+~ Features
+Menu-driven interface with four options:
+Enter City Information
+Calculate Distance Between Two Cities
+Print All Cities
+Quit
+Cities have both a name (supports spaces, e.g., New York) and coordinates (x, y).
+Distances are calculated using the Euclidean distance formula.
+Prevents selecting the same city for distance calculations.
+If the city list is full, the user can choose to overwrite an existing city.
+Works with both number or letter menu input (e.g., 1 or E for Enter).
